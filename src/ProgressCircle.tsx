@@ -24,7 +24,7 @@ export const ProgressCircle = ({
   backgroundStrokeCap = "butt",
   fontName,
   fontSize = 32,
-  initialProgress = 0,
+  initialProgress,
   isDashed = false,
   maxProgress = 100,
   onAnimationEnd,
