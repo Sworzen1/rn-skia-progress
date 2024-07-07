@@ -66,7 +66,7 @@ export const ProgressCircle = ({
           duration: animationDuration,
           easing: Easing.linear,
         },
-        (finished: boolean) => {
+        (finished: boolean | undefined) => {
           if (finished && onAnimationEnd) runOnJS(onAnimationEnd)();
         }
       );
